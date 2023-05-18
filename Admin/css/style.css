@@ -1,0 +1,160 @@
+/* 
+design by Arjun Chhetri
+ */
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* header */
+ .header{
+     background-color: rgb(80, 153, 218);
+     padding: 10px 0;
+     
+ }
+ .header ul li{
+     padding:0 10px;
+ }
+ .header ul li a{
+     color: #fff;
+     font-size: 23px;
+ }
+ .header ul li a:hover{
+     background-color: aqua;
+     border-radius: 5px;
+ }
+ .header .navbar span{
+     color: #000;
+ }
+/* main container */
+.main{
+    margin: 30px 10px;
+}
+.main .row .col-2{
+    margin: 30px 10px;
+    box-shadow: 1px 1px 8px #000;
+}
+.main .row .col-2 .purple{
+    padding:20px 10px;
+    cursor: pointer;
+}
+.main .row .col-2 h2{
+    text-align: center;
+}
+.main .row .col-2 h2{
+    color: rgb(230, 37, 133);
+}
+.main .row .col-2 h3{
+    color: rgb(140, 230, 37); 
+}
+.main .row .col-2:hover{
+    background-color:rgb(230, 37, 133);
+    color: #fff;
+}
+.main .row .col-2:hover h2{
+   color: #fff;
+}
+
+.main .row{
+    margin: 10px 0;
+}
+.main .row .col a{
+    background-color: rgb(0, 119, 255);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.main table tr td{
+    padding: 10px;
+}
+.main table a{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+  
+}
+.main table .update{
+    background-color: rgb(43, 125, 226);
+}
+.main table .update:hover{
+    background-color: rgb(15, 107, 199);
+}
+.main table .delete{
+    background-color: crimson;
+}
+.main table .delete:hover{
+    background-color: rgb(243, 11, 57);
+}
+
+
+.alert{
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* form */
+
+.container form{
+    width: 70%;
+    margin: 20px auto;
+}
+.category form{
+    width: 50%;
+    margin: 20px auto;
+    font-size: 23px;
+    border: 2px solid rgb(32, 29, 114);
+    padding: 20px;
+}
+.container form textarea{
+    width: 100%;
+}
+
+.image_category img{
+    width: 100px;
+    height: 100px;
+}
+
+ /* footer */
+
+ .footer{
+    background-color: rgb(80, 153, 218);
+    padding: 10px 0;
+ }
+ .footer h3{
+     text-align: center;
+     color: #fff;
+     font-size: 23px;
+ }
+
+ .footer h3 a{
+     color: rgb(189, 133, 241);
+     text-decoration: none;
+    
+ }
+
+ /* message */
+.error{color:red;}
+
+.form_box{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  width: 30%;
+}
+.form_box form{
+    border-top:2px solid rgb(43, 123, 235);
+    padding: 30px;
+    box-shadow: 0px 0px 8px rgb(29, 29, 28);
+}
+.toast{
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
